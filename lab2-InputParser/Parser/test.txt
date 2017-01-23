@@ -1,0 +1,8 @@
+insertR ssall -1.234 600
+modifyR fish 3.2567
+printR anim
+printR all
+printNode 4
+printNode all
+deleteR dogg
+deleteR all

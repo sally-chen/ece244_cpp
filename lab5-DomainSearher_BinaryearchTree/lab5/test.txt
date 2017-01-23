@@ -1,0 +1,37 @@
+> insert www.google.com 283983 active
+Success
+> insert www.yahoo.com 191333 active
+Success
+> insert www.eecg.utoronto.ca 179333 inactive
+Success
+> insert www.altera.com 283299 active
+Success
+> find www.google.com
+ECE 244 ¨C Fall 2016 Page 3 of 12
+
+www.google.com : 283983 : active
+> updatestatus www.google.com inactive
+Success
+> printall
+www.altera.com : 283299 : active
+www.eecg.utoronto.ca : 179333 : inactive
+www.google.com : 283983 : inactive
+www.yahoo.com : 191333 : active
+> printprobes www.altera.com
+3
+> remove www.eecg.utoronto.ca
+Success
+> printprobes www.altera.com
+2
+> countactive
+2
+> printall
+www.altera.com : 283299 : active
+www.google.com : 283983 : inactive
+www.yahoo.com : 191333 : active
+> removeall
+Success
+> find www.google.com
+Error: entry does not exist
+> printall
+> (Ctrl+D)
